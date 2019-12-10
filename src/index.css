@@ -6,3 +6,18 @@
   padding-left: 25px;
   padding-right: 15px;
 }
+.avatar{
+  width: 350px;
+  border: 2px solid gray;
+}
+#namewithhandle{
+  width: 350px;
+  border: 2px solid gray;
+  padding-bottom: 20px;
+}
+.name{
+  font-style: oblique;
+}
+.time{
+  flex-direction: column-reverse;
+}

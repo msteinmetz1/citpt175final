@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Calendar from './components/calendar/calendar';
 import './index.css';
+
+//Calendar created with "http://appsbuilders.org/guides/build-a-reactjs-calendar-component-tutorial-part-1/"
 
 function Tweet() {
   return (
@@ -22,20 +25,22 @@ function Tweet() {
   );
 }
 
-function Calendar() {
-  return (
-    <div className="calander">
-      This is the Calendar space
-    </div>
-  );
-}
-
 function NameWithHandle() {
   return (
-    <span className="name-with-handle">
-      <span className="name">word box</span>
-      <span className="handle">different words</span>
+    <div id="namewithhandle">
+      <span className="name-with-handle">
+      <span className="name">afterwards</span><br/>
+      <span className="handle">annotation</span><br/>
+      <span className="name">bought</span><br/>
+      <span className="handle">brian</span><br/>
+      <span className="name">categories</span><br/>
+      <span className="handle">category</span><br/>
+      <span className="name">click</span><br/>
+      <span className="handle">cloud</span><br/>
+      <span className="name">could</span><br/>
+      <span className="handle">different</span>
     </span>
+    </div>
   );
 }
 
@@ -48,7 +53,19 @@ function Avatar() {
 }
 
 const Time = () => (
-  <span className="time">Box with Tiger Image</span>
+  <span className="time" id="time">
+  <div id="con">
+  My Day <br/>
+
+  Today I went to the pet shop and bought a #tiger. We went to the park and had <br/>
+  a nice time there. Afterwards we watched Life of brian. <br/>
+  (http.//en.wikipedia.org/wiki/Life_of_Brian).
+  </div>
+  <img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Tiger_in_Ranthambhore.jpg/1280px-Tiger_in_Ranthambhore.jpg"
+id="logo"
+alt="logo" />
+</span>
 );
 
 const Back = () => (
